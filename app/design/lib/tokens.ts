@@ -40,12 +40,12 @@ export type PaletteDef = {
 export const PALETTES: Record<PaletteId, PaletteDef> = {
   sage: {
     id: "sage",
-    name: "Sage",
-    description: "Verde-erva desaturado. Calmo, confiável, vegetal.",
+    name: "Navy",
+    description: "Azul marinho escuro (Slate). Elegante, profissional e premium.",
     accent: {
-      50: "#f3f6f1", 100: "#e4ebe0", 200: "#c8d6c1", 300: "#a4ba9a",
-      400: "#82a077", 500: "#67885d", 600: "#506d48", 700: "#41573b",
-      800: "#374731", 900: "#2f3c2b", 950: "#171f15",
+      50: "#f8fafc", 100: "#f1f5f9", 200: "#e2e8f0", 300: "#cbd5e1",
+      400: "#94a3b8", 500: "#64748b", 600: "#475569", 700: "#334155",
+      800: "#1e293b", 900: "#0f172a", 950: "#020617",
     },
     neutralLight: {
       50: "#faf9f6", 100: "#f3f1ec", 200: "#e7e3da", 300: "#d2cdbf",

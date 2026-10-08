@@ -347,7 +347,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         quem abre o produto no celular. Princípio 2 de
         `docs/design-system/screen-flow/07-responsive-strategy.md`.
       */}
-      <body className="min-h-dvh bg-bg font-sans text-text antialiased">
+      <body className="min-h-dvh bg-bg font-sans text-text antialiased" suppressHydrationWarning>
         <Providers>
           <MarcaDosClientComponents>
             <ThemeProvider>{children}</ThemeProvider>

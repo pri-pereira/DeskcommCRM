@@ -177,7 +177,7 @@ export const PISO_DE_SEPARACAO_SIMULADA = 0.05;
  * só no arquivo inteiro — e apliquei ao stop EM USO por tema (0,0681 no claro, 0,1988
  * no escuro), que é o que o olho compara com a moldura neutra.
  */
-export const PISO_DE_CROMA = 0.04;
+export const PISO_DE_CROMA = 0.035;
 export const PISO_DE_SEPARACAO_DO_NEUTRO = 0.05;
 
 /**

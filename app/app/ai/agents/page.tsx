@@ -6,6 +6,7 @@ import { traduzir } from "@/lib/i18n/dicionario";
 import { createClient } from "@/lib/supabase/server";
 import type { AgentRow } from "@/hooks/ai/useAgent";
 import { AgentsList } from "./_components/AgentsList";
+import { BotaoRegistrarClara } from "@/components/ai/BotaoRegistrarClara";
 import { logger } from "@/lib/logger";
 
 export const dynamic = "force-dynamic";
@@ -64,6 +65,7 @@ export default async function AgentsListPage() {
           </p>
         </div>
       </header>
+      {canWrite && <BotaoRegistrarClara />}
       <AgentsList initialData={agents} canWrite={canWrite} />
     </div>
   );
