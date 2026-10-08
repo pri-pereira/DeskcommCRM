@@ -134,16 +134,6 @@ export function BotaoRegistrarClara({ className, onSuccess }: BotaoRegistrarClar
           {/* Botões de Ação */}
           <div className="flex items-center gap-2">
             <Button
-              variant="outline"
-              size="sm"
-              onClick={handleTestarViaApiRoute}
-              disabled={isPending}
-              className="text-xs"
-              title="Testar requisição HTTP via Rota de API Next.js"
-            >
-              Testar via API REST
-            </Button>
-            <Button
               variant="primary"
               size="sm"
               onClick={handleCadastrarViaAction}
